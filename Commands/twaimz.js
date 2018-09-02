@@ -2,7 +2,8 @@ exports.run = async (bot, message, args, prefix, Discord) => {
 
     let embed = new Discord.RichEmbed()
     .setColor("BLUE")
-    .setImage("https://i.ytimg.com/vi/6B3V-QLX9DY/maxresdefault.jpg")
+    .setTitle("Twaimz Bad Bish 3")
+    .setImage("https://data.whicdn.com/images/145495226/superthumb.jpg?t=1415347642")
     message.channel.send(embed)
     
     }

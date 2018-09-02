@@ -9,7 +9,7 @@ const llamas = [
 
 exports.run = async (bot, message, args, prefix) => {
 
-    const random = llamas[Math.floor(Math.random() * llamas.length)];
+    const random = llama[Math.floor(Math.random() * llamas.length)];
 
 let embed = new Discord.RichEmbed()
 .setColor("BLUE")
