@@ -10,7 +10,7 @@ let prefix = "s!";
 bot.on("ready", () => {
 
     console.log("Ready!");
-    bot.user.setActivity("s!help | Tina's BOT");
+    bot.user.setActivity("s!help | Playing with my Sylveon");
 
 });
 
