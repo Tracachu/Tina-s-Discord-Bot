@@ -4,8 +4,8 @@ const Discord = require("discord.js");
 exports.run = async (bot, message, args, prefix) => {
 
 
-    if (!message.member.hasPermission("BAN_MEMBERS"))
-    return message.reply("Sorry! you don't have Ban Members permissions to use this command!");
+   // if (!message.member.hasPermission("BAN_MEMBERS"))
+   // return message.reply("Sorry! you don't have Ban Members permissions to use this command!");
 let mention = message.mentions.members.first();
 if (!mention)
     return message.reply("Please mention a valid member.");
