@@ -1,5 +1,9 @@
 
-    async function purge() {
+    const Discord = require("discord.js");
+
+exports.run = async (bot, message, args, prefix) => {
+
+async function purge() {
         message.delete(); // Let's delete the command message, so it doesn't interfere with the messages we are going to delete.
     
         // We want to check if the argument is a number
@@ -21,3 +25,4 @@
     
     // We want to make sure we call the function whenever the purge command is run.
     purge(); // Make sure this is inside the if(msg.startsWith)
+}
