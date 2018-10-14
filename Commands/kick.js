@@ -2,8 +2,8 @@ const Discord = require("discord.js");
 
 exports.run = async (bot, message, args, prefix) => {
 
-//if (!message.member.hasPermission("KICK_MEMBERS"))
-//return message.reply("Sorry! you don't have Kick Members permission to use this command!");
+if (!message.member.hasPermission("KICK_MEMBERS"))
+return message.reply("Sorry! you don't have Kick Members permission to use this command!");
 let mention = message.mentions.members.first() || message.guild.members.get(args[0]);
 if (!mention)
 return message.reply("Please mention a valid member.");
